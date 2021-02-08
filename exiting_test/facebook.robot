@@ -48,7 +48,16 @@ LikePage
     Input Text    locator=//input[@placeholder='ค้นหาบน Facebook:']    text=${keyword}
     Sleep    3s
     Press Keys    //input[@placeholder='ค้นหาบน Facebook:']    RETURN
-    Wait Until Element Contains    locator=//div[@class='px9k8yfb hk9dxy2p']    text=${keyword}
+    Sleep    3s
+    Click Element    locator=//div[@class='nc684nl6']//a[@href='https://www.facebook.com/Plaocooking']
+    Sleep    3s
+    Click Element    locator=//div[@class='k4urcfbm']//div[@aria-label='ติดตาม']
+
+
+
+
+
+
     
 
 
