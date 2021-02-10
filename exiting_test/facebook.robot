@@ -15,7 +15,7 @@ ${group}    แบกเป้เที่ยว
 #---------------------------
 #  Test name       |     Keyword        |
 Login facebook           Login
-Upload Profile           ProfilePic
+Upload ProfilePic        ProfilePic
 Follow Page              LikePage
                          LikePost
 AddFriend                AddFriend
